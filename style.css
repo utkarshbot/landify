@@ -518,13 +518,6 @@ section.footer-section .copy {
   section.section-2.tailor-made div.table div.table-data p.data-content {
     display: none;
   }
-  section.section-3.review {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: auto;
-    padding: 5vh 0 5vh 0;
-  }
   /* section.section-3.review h1.quotation-mark {
     display: inline;
     font-size: 3in;
@@ -534,6 +527,14 @@ section.footer-section .copy {
     font-family: "Source Sans Pro", sans-serif;
     color: #2ec5ce;
   } */
+
+  /* section.section-3.review {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding: 5vh 0 5vh 0;
+  }
   section.section-3.review h1.review-heading {
     font-size: 1.7em;
     margin-bottom: 0;
@@ -602,6 +603,84 @@ section.footer-section .copy {
     gap: 1em;
     display: grid;
     grid-template-rows: auto auto auto;
+  } */
+  section.section-3.review {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 5vh 0 5vh 0;
+  }
+  section.section-3.review h1.review-heading {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 900;
+    width: 100%;
+  }
+  .reviews {
+    background-color: #d5fafc;
+  }
+  .reviews section.review p.review-content {
+    font-size: 1em;
+    margin: 0;
+    text-align: center;
+    margin: 0.8em auto;
+  }
+  .review-card {
+    width: 80%;
+    padding: 5%;
+    margin: auto;
+    background: white;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 13px -4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 13px -4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 13px -4px rgba(0, 0, 0, 0.3);
+  }
+  .review-card img {
+    height: 1.8em;
+  }
+  h1.quotation-mark {
+    opacity: 0.4;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #2ec5ce;
+  }
+  p.review-data {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.8em;
+    padding: 0px 5px;
+  }
+  h1.review-name {
+    font-size: 1em;
+    line-height: 1.8em;
+    padding: 0px 5px;
+    text-align: left;
+    margin: 0;
+  }
+  p.designation {
+    margin: 0;
+    font-size: 0.8em;
+    line-height: 1.3em;
+    padding: 0px 5px;
+    text-align: left;
+    color: grey;
+  }
+  .review-right {
+    width: 100%;
+    margin: 1em auto;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  .review-card:nth-child(1) {
+    width: 80%;
+  }
+  .review-card:nth-child(2) {
+    width: 80%;
   }
   section.section-4 {
     padding: 8vh 0;
